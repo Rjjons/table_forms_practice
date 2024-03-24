@@ -132,16 +132,16 @@
             </section>
           </main>
 
-          <section class="selec">
+          <section class="table_select">
             <h1>Tables</h1>
 
-            <div>
+            <div class="tables">
               <table
                 width="100%"
                 cellspacing="2"
                 cellpadding="2"
                 border="1"
-                bordercolor="#f4f4f4"
+                bordercolor="#f4f4f4" class="tr1"
               >
                 <tr>
                   <td>Sports</td>
@@ -183,10 +183,124 @@
               more youths are beginning to find something worthwhile to do with
               their lives than just being hyppies.
             </p>
+
+            
           </section>
         </div>
       </main>
     </section>
+
+    <section class="employ">
+        <div >
+          <form name="employment" action="send.php" method="post">
+            <table
+            width="100%"  
+              border="1"
+              cellspacing="2"
+              cellpadding="2"
+              class="tr2"
+            >
+              <tr>
+                <td colspan="2"> Employment Application</td>
+                
+              </tr>
+              <tr>
+                <td>First Name</td>
+                <td>
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="Enter name here"
+                    maxlength="50"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Last Name</td>
+                <td>
+                  <input
+                    type="text"
+                    fname="lname"
+                    placeholder="Enter surname here"
+                    maxlength="50"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position:</td>
+                <td>
+                  <select name="position" id="">
+                    <option value="SE">Select</option>
+                    <option value="Ac">Accountant</option>
+                    <option value="Da">Data Analyst</option>
+                    <option value="De">DevOp Engineer</option>
+                    <option value="Fr">Frontend Engineer</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Experience Level:</td>
+                <td>
+                  <select name="Experience" id="">
+                    <option value="SE">Select</option>
+                    <option value="EL">Entry Level</option>
+                    <option value="SE">Some Experience</option>
+                    <option value="VE">Very Experienced</option>
+                    <option value="E">Expert</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Job Type</td>
+                <td>
+                  <input type="checkbox" name="ft" />Full-Time
+                  <input type="checkbox" name="pt" /> Part-Time
+                  <input type="checkbox" name="co" /> Contact
+                </td>
+              </tr>
+              <tr>
+                <td>Employment Status</td>
+                <td><input type="radio" name="estatus" value="employed"/> Employed
+                <input type="radio" name="estatus" value="unemployed"/> Unemployed
+                <input type="radio" name="estatus" value="student"/> Student</td>
+              </tr>
+              <tr>
+                <td>Additional Comments</td>
+                <td>
+                  <textarea name="comment" id="" cols="45" rows="5" maxlength="250" placeholder="Add additional comments here"></textarea>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Email:</td>
+                
+                <td>
+                  <input type="text" name="email" required>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td>Password:</td>
+                
+                <td>
+                  <input type="password" name="password" min="8" required>
+                  
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+                
+                <td>
+                  <input type="submit" name="submit" value="Submit">
+                  <input type="reset" name="reset" value="Reset">
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </section>
 
     <footer>&nbsp; Copyright! 2024 Jonah R E built the site.</footer>
   </body>

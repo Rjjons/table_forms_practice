@@ -1,14 +1,20 @@
 /* Path: css/styles.css */
         body {
             margin: 0;
-            padding: 50px;
+            padding: 30px;
             box-sizing: border-box;
+            background-color: #d8dfe6;
         
         }
 
-        .selec{
+        .bk-color{
+            background-color: #c31414;
+        }
+
+        .table_select{
             background-color: #333;
             max-width: 20%;
+            height: auto;
             
             h1{
                 text-align: center;
@@ -19,8 +25,19 @@
             }
             p{
                 color: #f4f4f4;
+                margin: 5%;
             }
         }
+
+        .tables{
+            margin: 5%;
+            max-height: auto;
+
+            
+        }
+
+       
+
      .top {
          background-color: #f4f4f4;
          height: 50px;
@@ -58,13 +75,24 @@
             margin-left: 5%; 
             margin-right: 5%;
 
-        }
+        §}
 
     
         
-        tr{
+        .tr1{
             text-align: center;
             color: #f4f4f4;
+        }
+
+        .tr2{
+            color: #100f0f;
+            
+                background-color: #f2f7f9;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                text-align: left;
+            
         }
 
         footer{
