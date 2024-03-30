@@ -36,7 +36,8 @@
         }
 
         .bk-color{
-            background-color: #333;
+            background-color: #697a7a;
+            
         }
 
         .table_select{
@@ -64,12 +65,16 @@
             
         }
 
-       
+       a{
+        color: #dada12;
+        text-decoration: none;
+       }
 
      .top {
          background-color: #f4f4f4;
          height: 50px;
          width: 100%;
+         
      }
         .sub {
             background-color: #333;
@@ -93,6 +98,7 @@
         }
 
         .content1{
+
             margin-left: 5%; 
             margin-right: 5%;
             h1{
@@ -122,6 +128,10 @@
                 justify-content: center;
                 text-align: left;
             
+        }
+         
+        .maintable{
+            background-color: #ff5100;
         }
 
         footer{
